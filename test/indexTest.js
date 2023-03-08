@@ -4,8 +4,8 @@ const { name, height, message } = require("../index.js");
 
 describe("what-is-a-test", () => {
   describe("Name", () => {
-    it('returns "Andrew"', () => {
-      expect(name).toEqual("Andrew");
+    it('returns "Susan"', () => {
+      expect(name).toEqual("Susan");
     });
   });
 
